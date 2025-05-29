@@ -105,6 +105,8 @@ INSERT INTO Internacoes (id_paciente, quarto, data_entrada, data_saida, custo) V
 (3, '202B', '2024-05-08', '2024-05-10', 3000.00),
 (5, '303C', '2024-05-15', '2024-05-20', 7000.00);
 
+-- Consultas
+
 -- Listar todos os pacientes internados atualmente
 SELECT nome, quarto
 FROM Pacientes P
